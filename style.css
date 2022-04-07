@@ -1,0 +1,27 @@
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+
+    /*Neutral*/
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+.hero-container{
+    display: flex;
+    width: 50%;
+    height: 400px;
+}
+
+.texto1{
+    background-color: var(--Bright-orange);
+}
+
+.texto2{
+    background-color: var(--Dark-cyan);
+}
+
+.texto3{
+    background-color: var(--Very-dark-cyan);
+}
